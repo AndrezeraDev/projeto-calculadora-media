@@ -1,0 +1,115 @@
+/* Define estilos básicos para todos os elementos */
+
+* {
+    margin: 0;                /* Remove a margem padrão de todos os elementos */
+    padding: 0;               /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box;   /* Define a caixa de modelo para incluir a borda no cálculo de largura e altura */
+    font-family: "Roboto", sans-serif;  /* Define a fonte padrão para todos os elementos */
+}
+
+/* Define estilos específicos para o corpo da página */
+
+body {
+    background-color: #e7e7e7;  /* Define a cor de fundo para o corpo da página */
+    padding-top: 100px;         /* Adiciona preenchimento superior para dar espaço para o cabeçalho */
+}
+
+/* Estilização do cabeçalho */
+
+header {
+    display: flex;             /* Define o cabeçalho como um contêiner flexível para alinhar itens lado a lado */
+    align-items: center;      /* Alinha os itens do cabeçalho no centro verticalmente */
+    margin-bottom: 40px;      /* Adiciona margem inferior ao cabeçalho */
+}
+
+header img {
+    height: 36px;             /* Define a altura da imagem do cabeçalho */
+    margin-right: 16px;      /* Adiciona margem à direita da imagem do cabeçalho */
+}
+
+header h1 {
+    font-size: 40px;         /* Define o tamanho da fonte do título do cabeçalho */
+    font-weight: bold;       /* Define o peso da fonte como negrito */
+}
+
+/* Fim da estilização do cabeçalho */
+
+.container {
+    max-width: 960px;         /* Define a largura máxima do container */
+    width: 100%;              /* Define a largura do container como 100% da largura disponível */
+    margin: 0 auto;           /* Centraliza o container horizontalmente */
+}
+
+/* Estilização do formulário */
+
+form {
+    display: inline;          /* Define o formulário para exibir inline */
+    max-width: 640px;        /* Define a largura máxima do formulário */
+    width: 100%;              /* Define a largura do formulário como 100% */
+    justify-content: space-between;  /* Distribui uniformemente os itens do formulário */
+    margin-bottom: 56px;     /* Adiciona margem inferior ao formulário */
+}
+
+form input {
+    font-size: 24px;          /* Define o tamanho da fonte para os inputs do formulário */
+    background-color: #fff;   /* Define a cor de fundo dos inputs do formulário */
+    border: none;             /* Remove a borda dos inputs do formulário */
+    border-bottom: 2px solid #000;  /* Adiciona uma borda inferior de 2px sólida preta aos inputs do formulário */
+    padding: 8px;             /* Adiciona preenchimento interno aos inputs do formulário */
+}
+
+form button {
+    background-color: #009432;  /* Define a cor de fundo do botão */
+    color: #fff;                /* Define a cor do texto do botão */
+    font-size: 24px;            /* Define o tamanho da fonte do botão */
+    font-weight: bold;          /* Define o peso da fonte como negrito */
+    border: none;               /* Remove a borda do botão */
+    cursor: pointer;            /* Altera o cursor ao passar sobre o botão */
+    padding: 8px;               /* Adiciona preenchimento interno ao botão */
+}
+
+/* Estilização da tabela */
+
+table {
+    width: 100%;               /* Define a largura da tabela como 100% */
+}
+
+table th {
+    border-bottom: 2px solid #000;  /* Adiciona uma borda inferior de 2px sólida preta às células de cabeçalho */
+    padding: 16px;             /* Adiciona preenchimento interno às células de cabeçalho */
+    font-size: 24px;           /* Define o tamanho da fonte para as células de cabeçalho */
+    font-weight: bold;         /* Define o peso da fonte como negrito */
+}
+
+table td {
+    padding: 16px 0;           /* Adiciona preenchimento interno às células da tabela */
+    text-align: center;        /* Alinha o texto das células da tabela ao centro */
+    font-size: 18px;           /* Define o tamanho da fonte para as células da tabela */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Adiciona uma borda inferior de 1px à célula da tabela */
+}
+
+table td img {
+    height: 30px;              /* Define a altura das imagens dentro das células da tabela */
+}
+
+/* Estilização dos resultados */
+
+.resultado {
+    padding: 8px;              /* Adiciona preenchimento interno ao elemento de resultado */
+    font-weight: bold;        /* Define o peso da fonte como negrito */
+    color: #fff;               /* Define a cor do texto do resultado */
+    background-color: #000;    /* Define a cor de fundo do resultado */
+    border-radius: 3px;        /* Adiciona bordas arredondadas ao resultado */
+}
+
+.aprovado {
+    background-color: #009432;  /* Define a cor de fundo para o resultado "aprovado" */
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.reprovado {
+    background-color: red;      /* Define a cor de fundo para o resultado "reprovado" */
+    padding: 8px;
+    border-radius: 6px;
+}
